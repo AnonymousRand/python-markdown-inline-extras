@@ -13,4 +13,4 @@ class StrikethroughExtension(Extension):
             ```
         """
         regex = r"()~~([\S\s]+?)~~"
-        md.inlinePatterns.register(SimpleTagInlineProcessor(regex, "del"), "strikethrough", 105)
+        md.inlinePatterns.register(SimpleTagInlineProcessor(regex, "del"), "strikethrough", 2)

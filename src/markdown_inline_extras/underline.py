@@ -13,4 +13,4 @@ class UnderlineExtension(Extension):
             ```
         """
         regex = r"()__([\S\s]+?)__"
-        md.inlinePatterns.register(SimpleTagInlineProcessor(regex, "u"), "underline", 105)
+        md.inlinePatterns.register(SimpleTagInlineProcessor(regex, "u"), "underline", 2)
